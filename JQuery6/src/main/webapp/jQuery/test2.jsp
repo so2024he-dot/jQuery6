@@ -33,7 +33,9 @@
 		
 		$("tr:odd").css("background","yelloe");
 		$("tr:last").css("background","green");
+		//행을 구분하는 인덱스는 항상 0부터 시작
 		
+		// https://flukeout.github.io/ => 선택자 연습
 		
 	});
 
