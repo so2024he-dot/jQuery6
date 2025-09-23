@@ -21,8 +21,7 @@
 		/* 
 			$('h2').css();
 			$.each(대상);
-			$.ajax(대상,function(){ });
-			
+			$.ajax(대상,function(){ });			
 			[기본문법]
 			$.ajax({
 				type : "GET/POST" , (AJEX 요청시 사용할 HTTP 메서드)
@@ -39,8 +38,7 @@
 					(AJAX 요청이 실패한 경우 실행)
 				}				
 			});		
-		*/
-		
+		*/		
 		//동기 방식
 		//location.href="teat9-1.jsp";
 		
@@ -54,8 +52,7 @@
 				//alert("비동기방식 ajax 실행 성공! ");
 				$("body").append(data);
 			}
-		});
-		
+		});		
 		// test9-2.jsp 페이지에 ajax로 접근
 		// + 정보 전달(파라메터)
 		$.ajax({
@@ -72,8 +69,7 @@
 			error : function(){
 				alert(" 에러 발생! ");
 			}		
-		});
-		
+		});		
 		//btnXML 버튼 클릭시 비동기 방식으로 test9-3.jsp 페이지에서 
 		//XML 데이터를 가져와서 출력
 		$("#btnXML").click(function(){
