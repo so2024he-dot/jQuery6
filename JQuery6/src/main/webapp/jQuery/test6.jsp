@@ -33,7 +33,7 @@
 			// this : 나 자신을 표현하는 객체 레퍼런스
 			//      + 이벤트가 발생한 요소를 나타냄
 			
-		});		
+		});		s
 		
 	});
 	
@@ -51,10 +51,14 @@
 	<h2 class="high_3">head-3</h2>
 	<h2 class="high_4">head-4</h2>
 	 -->
+	 
 	<h2>head-0</h2>
 	<h2>head-1</h2>
 	<h2>head-2</h2>
 	<h2>head-3</h2>
 	<h2>head-4</h2>
+	
+	
+	
 </body>
 </html>
